@@ -3,11 +3,7 @@ import './App.css';
 import { Button } from './components/Button';
 import InputText from './components/InputText';
 import Text from './components/Text';
-//Principios
-//  Almacenamiento centralizado
-//  Estados predecibles
-//  Debuggleable
-//  Flexible
+import Posts from './components/Posts';
 
 function App() {
   return (
@@ -18,9 +14,9 @@ function App() {
         <Button name='decrement' />
         <Button name='increment' />
       </div>
-
       <Text />
       <InputText />
+      <Posts />
     </div>
   );
 }
